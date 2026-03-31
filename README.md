@@ -40,7 +40,7 @@ The core Terraform configuration file defining the AWS provider, a dynamic Ubunt
 Using the AWS CLI to verify the deployed instance — `i-0cbb2ddebc3404c94` confirmed as running in `us-west-2a`, proving infrastructure was provisioned successfully through code.
 
 <p align="center">
-<img src="https://i.imgur.com/UYqE6sA.png" height="85%" width="85%" alt="EC2 Instance Confirmed via CLI"/>
+<img src="https://i.imgur.com/mYhsPCd.png" height="85%" width="85%" alt="EC2 Instance Confirmed via CLI"/>
 </p>
 
 ### 6. EC2 Instance Live in AWS Console
