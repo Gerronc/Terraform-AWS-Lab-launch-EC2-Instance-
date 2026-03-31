@@ -39,15 +39,6 @@ The provisioned EC2 instance visible in the AWS Console — running in `us-west-
 
 ---
 
-## 📁 File Structure
-
-```
-terraform-aws-lab/
-├── terraform.tf       # Provider version constraints
-├── main.tf            # Core infrastructure definition
-├── .gitignore         # Excludes state files and secrets
-└── README.md          # This file
-```
 
 ---
 
@@ -61,34 +52,29 @@ terraform-aws-lab/
 
 ## 🚀 Usage
 
-**1. Clone the repo**
-```bash
-git clone https://github.com/YOUR_USERNAME/terraform-aws-lab.git
-cd terraform-aws-lab
-```
 
-**2. Configure AWS credentials**
+**1. Configure AWS credentials**
 ```bash
 aws configure
 ```
 
-**3. Initialize Terraform**
+**2. Initialize Terraform**
 ```bash
 terraform init
 ```
 
-**4. Preview the plan**
+**3. Preview the plan**
 ```bash
 terraform plan
 ```
 
-**5. Deploy**
+**4. Deploy**
 ```bash
 terraform apply
 # Type "yes" when prompted
 ```
 
-**6. Verify**
+**5. Verify**
 ```bash
 aws ec2 describe-instances \
   --query "Reservations[*].Instances[*].[InstanceId,State.Name,Placement.AvailabilityZone]" \
