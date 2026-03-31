@@ -12,14 +12,14 @@ Built as part of a hands-on DevOps learning journey, this project uses **Terrafo
 AWS credentials successfully configured via shared credentials file, connecting the local environment to AWS and enabling Terraform to authenticate and provision cloud resources.
 
 <p align="center">
-<img src="https://i.imgur.com/UA8oH8i.png" height="85%" width="85%" alt="AWS CLI Configured"/>
+<img src="https://i.imgur.com/a0EqEjB.png" height="85%" width="85%" alt="AWS CLI Configured"/>
 </p>
 
 ### 2. Terraform Initialized & Validated
 Terraform successfully initialized, downloading the HashiCorp AWS provider v5.100.0 and creating a lock file for consistent deployments. Configuration validated with zero errors.
 
 <p align="center">
-<img src="https://i.imgur.com/CvpfH4l.png" height="85%" width="85%" alt="Terraform Initialized & Validated"/>
+<img src="https://i.imgur.com/lcP9Psf.png" height="85%" width="85%" alt="Terraform Initialized & Validated"/>
 </p>
 
 ### 3. Provider Configuration (`terraform.tf`)
