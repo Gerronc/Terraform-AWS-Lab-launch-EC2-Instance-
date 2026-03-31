@@ -12,7 +12,7 @@ Built as part of a hands-on DevOps learning journey, this project uses **Terrafo
 AWS credentials successfully configured via shared credentials file, connecting the local environment to AWS and enabling Terraform to authenticate and provision cloud resources.
 
 <p align="center">
-<img src="https://i.imgur.com/a0EqEjB.png" height="85%" width="85%" alt="AWS CLI Configured"/>
+<img src="https://i.imgur.com/vyAlkgo.png" height="85%" width="85%" alt="AWS CLI Configured"/>
 </p>
 
 ### 2. Terraform Initialized & Validated
