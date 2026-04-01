@@ -46,12 +46,16 @@ The `terraform.tf` file locks the AWS provider to version `~> 5.92` and requires
 <img src="https://i.imgur.com/04lGoto.png" height="85%" width="85%" alt="Provider Configuration (`terraform.tf`)"/>
 </p>
 
+[Terraform.tf](https://github.com/Gerronc/Terraform-AWS-Lab-launch-EC2-Instance-/blob/main/terraform.tf)
+
 ### 4. Infrastructure Definition (`main.tf`)
 The core Terraform configuration file defining the AWS provider, a dynamic Ubuntu AMI data source, VPC module, and EC2 instance — with the HashiCorp VS Code extension providing intelligent autocomplete and syntax highlighting.
 
 <p align="center">
 <img src="https://i.imgur.com/g6w5KXa.png" height="85%" width="85%" alt="Infrastructure Definition (`main.tf`)"/>
 </p>
+
+[Main.tf](https://github.com/Gerronc/Terraform-AWS-Lab-launch-EC2-Instance-/blob/main/main.tf)
 
 ### 5. Terraform Output
 Terraform output displaying the EC2 instance's private hostname `ip-10-0-1-243.us-west-2.compute.internal` — confirming the instance is correctly placed inside the private subnet of the custom VPC.
