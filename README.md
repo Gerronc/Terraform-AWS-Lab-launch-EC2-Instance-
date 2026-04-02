@@ -1,4 +1,4 @@
-# 🏗️ Terraform AWS Lab
+# 🏗️ Terraform IAC AWS Lab
 
 > Provisioning real AWS infrastructure with code — no console clicks required.
 
